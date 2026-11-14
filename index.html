@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UK road charge zone data in JSON format.">
+    <title>UK Road Charge Zones</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+        color: #17212b;
+        background: #f4f7f9;
+      }
+
+      body {
+        box-sizing: border-box;
+        max-width: 46rem;
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+      }
+
+      main {
+        padding: 2rem;
+        border: 1px solid #d6e0e7;
+        border-radius: 0.75rem;
+        background: #fff;
+      }
+
+      h1 {
+        margin-top: 0;
+        line-height: 1.2;
+      }
+
+      .warning {
+        padding: 1rem;
+        border-left: 4px solid #b45309;
+        background: #fff7ed;
+      }
+
+      a {
+        color: #075985;
+      }
+
+      code {
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>UK Road Charge Zones</h1>
+      <p>
+        The zone data is available as JSON:
+        <a href="./zones.json"><code>zones.json</code></a>.
+      </p>
+      <p>Use the URL of that file in your app to retrieve the latest published data.</p>
+      <p class="warning">
+        <strong>Data notice:</strong> Some coordinates are approximate placeholders
+        and have not been verified. Check each zone's data and warning fields
+        before relying on it.
+      </p>
+    </main>
+  </body>
+</html>
