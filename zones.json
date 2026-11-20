@@ -423,7 +423,7 @@
       "paymentDeadline": { "value": 6, "unit": "days", "from": "midnight_after_crossing" },
       "paymentUrl": "https://www.gov.uk/clean-air-zones",
       "penalty": { "amount": 120, "reducedAmount": 60, "reducedWindowDays": 14 },
-      "geometrySource": "City of Bradford MDC open data, Clean Air Zone Boundary (spatialdata-cbmdc.hub.arcgis.com, updated March 2026), simplified to 15 m - from the operator, not yet checked on site",
+      "geometrySource": "City of Bradford MDC open data, Clean Air Zone Boundary (spatialdata-cbmdc.hub.arcgis.com, updated March 2026), simplified to 15 m - from the operator, not yet checked on site. Open Government Licence v3.0, confirmed in writing by the council's Clean Air Zone team (November 2026)",
       "lastVerifiedAt": null,
       "notes": "Class C. Charges vehicles that fail the standard: taxis and private hire £7; vans and minibuses £9; lorries, buses and coaches £50 a day. Cars and motorcycles are not charged. Standards: Euro 4 petrol or Euro 6 diesel for cars, vans, minibuses, taxis and private hire; Euro VI for lorries, buses and coaches. 24/7, charged by the day. Pay up to 6 days before, or by 11:59pm on the sixth day after, through GOV.UK. Class, vehicles charged, hours and payment window from GOV.UK (Driving in a Clean Air Zone), checked 2026-09-25. Daily amounts from published summaries of the council schemes, checked the same day; the penalty is the usual English CAZ figure and is not confirmed for this zone. Confirm every figure on the council site before relying on it."
     },
